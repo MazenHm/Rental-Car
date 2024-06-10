@@ -1,0 +1,88 @@
+.hero {
+  margin-top: 100px;
+  padding: 1.7rem 5rem;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.hero h1 {
+  color: #010103;
+  font-family: Poppins, sans-serif;
+  font-size: 63.2px;
+  max-width: 36rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+.hero h1 span {
+  color: #ff4d30;
+}
+.hero h4 {
+  color: #010103;
+  font-family: Poppins, sans-serif;
+  font-size: 23.2px;
+  font-weight: 700;
+}
+
+.hero p {
+  color: #706f7b;
+  font-family: Rubik, sans-serif;
+  font-size: 14.6px;
+  line-height: 1.6;
+  max-width: 30rem;
+  margin-bottom: 2rem;
+}
+
+.car-img {
+  width: 65%;
+  z-index: -1;
+  position: absolute;
+  top: 200px;
+  right: 40px;
+}
+
+.shape-img {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 428px) {
+  .hero {
+    margin-top: 1rem !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    max-width: 428px !important;
+  }
+  .hero h4 {
+    font-size: 17px !important;
+    text-align: center !important;
+  }
+  .hero h1 {
+    text-align: center !important;
+    font-size: 38.2px !important;
+  }
+  .hero p {
+    max-width: 310px !important;
+    text-align: center !important;
+  }
+  .car-img,
+  .shape-img {
+    display: none;
+  }
+  .resp {
+    display: flex;
+    flex-direction: column;
+  }
+  .resp button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

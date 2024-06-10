@@ -1,0 +1,99 @@
+.faq-content {
+  width: 100%;
+  background-color: white;
+  margin-top: 8rem;
+}
+
+.faq-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.faq-container p {
+  color: #706f7b;
+  font-family: Poppins;
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 45rem;
+  text-align: center;
+}
+.faq-container h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: black;
+  font-family: "Poppins";
+}
+.faq-container h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: black;
+  font-family: "Poppins";
+  margin: 0;
+}
+
+.quest-box,
+.answer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 19px;
+}
+.all-questions-container {
+  margin-top: 4rem;
+  width: 50rem;
+}
+.quest-container {
+  background-color: white;
+
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-bottom: 1px #edebf9 solid;
+}
+.quest-box {
+  background-color: #fff;
+  color: #010103;
+}
+.quest-box p {
+  color: black;
+  font-family: Poppins;
+  font-size: 17px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+}
+.answer-box p {
+  padding: 15px 0;
+  color: black;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  margin: 0;
+}
+.selected.quest-box {
+  background-color: #ff4d30;
+}
+.selected.quest-box p {
+  color: white;
+}
+.selected.quest-box .fa-chevron-down {
+  color: white;
+}
+
+@media (max-width: 428px) {
+  .faq-content {
+    width: 100%;
+    background-color: transparent !important;
+    margin-top: 8rem !important;
+  }
+  .faq-container h2 {
+    text-align: center;
+    font-size: 36px !important;
+  }
+  .all-questions-container {
+    width: 90% !important;
+  }
+}

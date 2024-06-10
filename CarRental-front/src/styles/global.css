@@ -1,0 +1,17 @@
+@import "./BannerSection.css";
+@import "./BookSection.css";
+@import "./ChooseSection.css";
+@import "./Faq.css";
+@import "./FleetSection.css";
+@import "./Footer.css";
+@import "./HeroSection.css";
+@import "./Navbar.css";
+@import "./PlanSection.css";
+@import "./ReviewSection.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+a {
+  text-decoration: none !important;
+  list-style: none !important;
+  color: inherit !important;
+}

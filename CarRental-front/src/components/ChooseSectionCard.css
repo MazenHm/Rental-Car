@@ -1,0 +1,27 @@
+.choose-card-container h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+  font-family: "Poppins";
+}
+
+.choose-card-container p {
+  color: #706f7b;
+  font-family: "Poppins";
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 19rem;
+}
+
+@media (max-width: 428px) {
+  .choose-card-container {
+    margin-top: 3rem !important;
+  }
+  .choosecard {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+  }
+}

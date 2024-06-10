@@ -1,0 +1,65 @@
+.contact-main {
+  margin-top: 15rem;
+  padding: 0 8rem;
+  display: flex;
+}
+.contact-main p {
+  font-size: 15px;
+  max-width: 369px;
+  font-weight: 400;
+  color: #706f7b;
+}
+
+.contact-main label {
+  font-family: poppins;
+  font-weight: 600;
+}
+.contact-main input {
+  border-radius: 0;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  padding: 16px 30px;
+  width: 35rem;
+}
+.contact-main a {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: poppins;
+}
+
+.contact-main span {
+  color: #ff4d30;
+  font-family: poppins;
+}
+.contact-main textarea {
+  height: 13rem;
+  border-radius: 0;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  width: 35rem;
+
+  padding: 16px 30px;
+}
+
+.contact-main .fa-phone-alt,
+.fa-envelope {
+  font-size: 16px;
+  color: black;
+}
+.contact-main button {
+  font-size: 17px;
+  font-weight: 600;
+}
+@media (max-width: 428px) {
+  .contact-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}

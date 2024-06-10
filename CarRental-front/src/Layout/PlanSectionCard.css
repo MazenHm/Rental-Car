@@ -1,0 +1,14 @@
+.PlanSectionCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.PlanSectionCard p {
+  color: #706f7b;
+  font-family: Rubik, sans-serif;
+  font-size: 17px;
+  max-width: 270px;
+  line-height: 1.43;
+  text-align: center;
+}

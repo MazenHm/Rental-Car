@@ -1,0 +1,93 @@
+.reviews-section {
+  width: 100%;
+}
+.reviews-box h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: black;
+  font-family: "Poppins";
+}
+
+.reviews-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+.reviews-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 1rem 13rem;
+}
+.reviews-box p {
+  color: #706f7b;
+  font-family: "Poppins";
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 45rem;
+  text-align: center;
+}
+.reviews-box h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: black;
+  font-family: "Poppins";
+}
+.review-box-card {
+  width: 540px;
+  padding: 4.5rem;
+  background-color: white;
+}
+
+.review-box-card p {
+  font-family: poppins;
+  font-weight: 500;
+  margin: 0;
+  font-size: 18px;
+}
+
+.review-box-card h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: black;
+  font-family: "Poppins";
+  margin: 0;
+}
+.review-box-card img {
+  border-radius: 50%;
+}
+
+.fa-quote-right {
+  font-weight: 900;
+  font-size: 55px;
+  color: #ff4d30;
+}
+
+@media (max-width: 428px) {
+  .reviews-container {
+    margin-top: 2rem !important;
+    padding: 1rem 2rem !important;
+  }
+  .reviews-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .reviews-box h2 {
+    text-align: center !important;
+  }
+  .reviews-card-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+  }
+  .review-box-card {
+    max-width: 323px !important;
+    padding: 1rem 2rem !important;
+  }
+}

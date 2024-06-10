@@ -1,0 +1,73 @@
+.title-header {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ff4d30;
+  margin-bottom: 30px;
+}
+
+.personal-container {
+  padding: 1.5rem;
+  width: 100%;
+}
+.input-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.input-box input {
+  width: auto;
+  background-color: #dbdbdb;
+  border: none;
+  color: #555;
+  border-radius: 0;
+}
+
+.input-box label {
+  color: #777;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.input-box span {
+  color: #ff4d30;
+}
+.input-box p {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+.solo-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem !important;
+}
+.solo-input input {
+  flex: 1;
+  background-color: #dbdbdb;
+  border: none;
+  color: #555;
+  width: 100%;
+  border-radius: 0;
+}
+
+.solo-input label {
+  color: red !important;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.solo-input span {
+  color: #ff4d30;
+}
+.solo-input p {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+.error input {
+  border: 1px solid red !important;
+}
+
+/* Define the styles for error messages (red text) */
+.error-text {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px; /* Add some spacing between the input and error message */
+}

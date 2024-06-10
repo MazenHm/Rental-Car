@@ -1,0 +1,45 @@
+/* CustomScrollbar.css */
+
+/* For WebKit-based browsers (Google Chrome, Safari, Edge) */
+/* Note: The ::webkit-scrollbar pseudo-element is used to target the scrollbar */
+
+/* Track */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+  background-color: #fff; /* Set the background color of the scrollbar */
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #ff0000; /* Set the color of the scrollbar handle */
+  border-radius: 25px;
+  min-height: 10px !important;
+}
+
+/* Optional: Track on hover */
+::-webkit-scrollbar-track:hover {
+  background-color: #f5f5f5; /* Set the color of the scrollbar track on hover */
+}
+
+/* Optional: Button (arrows) */
+::-webkit-scrollbar-button {
+  display: none; /* Hide the scrollbar buttons (arrows) */
+}
+
+/* Optional: Corner (between vertical and horizontal scrollbar) */
+::-webkit-scrollbar-corner {
+  background-color: #f5f5f5; /* Set the color of the scrollbar corner */
+}
+::-webkit-scrollbar-corner:hover {
+  background-color: #f5f5f5; /* Set the color of the scrollbar corner */
+}
+
+/* Adjust the height of the scrollbar thumb (handle) */
+::-webkit-scrollbar-thumb {
+  min-height: 2px; /* Set the minimum height of the scrollbar handle */
+}
+
+/* Optional: Adjust the height of the scrollbar track */
+::-webkit-scrollbar-track {
+  min-height: 20px; /* Set the minimum height of the scrollbar track */
+}

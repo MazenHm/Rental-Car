@@ -1,0 +1,58 @@
+.book-content {
+  margin-top: 186px;
+  height: 400px;
+  padding: 1.7rem 5rem;
+}
+.book-content-box {
+  background-image: url(../../public/assets/car/book-bg.6f629a1041e9fd9c6685.png);
+  background-color: white;
+  padding: 50px;
+  border-radius: 5px;
+}
+.book-content-box h1 {
+  color: #010103;
+  font-family: Poppins, sans-serif;
+  font-size: 26.2px;
+  font-weight: 700;
+}
+
+.book-content-box label {
+  font-size: 18px;
+  font-weight: 700;
+}
+.book-content-box select,
+input {
+  border: 1px solid #ccd7e6;
+  border-radius: 3px;
+  color: #ababab;
+  font-family: Poppins, sans-serif;
+  font-size: 14.5px;
+  font-weight: 400;
+  outline: none;
+  padding: 10.2px 13.3px;
+  width: 25rem;
+}
+
+.fa-map-marker-alt,
+.fa-car,
+.fa-calendar-alt {
+  color: #ff4d30;
+  font-size: 18px;
+}
+.color-span {
+  color: #ff4d30;
+}
+
+.book-content-box button {
+  background-color: #ff4d30;
+  border: none;
+  border-radius: 0 !important;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-size: 14.5px;
+  font-weight: 400;
+  outline: none;
+  padding: 13px 13.3px;
+  width: 25rem;
+  font-weight: 700;
+}
