@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "666786e4b7f5fde7a51245c8"
+  },
+  "model": "Benz GLK",
+  "mark": "Mercedes",
+  "year": 2008,
+  "door": 4,
+  "ac": "Yes",
+  "transmission": "Manual",
+  "fuel": "Diesel",
+  "image": "/images/Benz GLK.jpeg",
+  "pricePerDay": 37,
+  "available": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6667871ab7f5fde7a51245cc"
+  },
+  "model": "Golf 6",
+  "mark": "Volkswagen",
+  "year": 2008,
+  "door": 4,
+  "ac": "Yes",
+  "transmission": "Manual",
+  "fuel": "Diesel",
+  "image": "/images/Golf 6.jpeg",
+  "pricePerDay": 37,
+  "available": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666787a50737912a7aeaa784"
+  },
+  "model": "Mazen Car",
+  "mark": "Mercedes",
+  "year": 2008,
+  "door": 4,
+  "ac": "Yes",
+  "transmission": "Manual",
+  "fuel": "Diesel",
+  "image": "/images/Mazen Car.jpeg",
+  "pricePerDay": 37,
+  "available": true,
+  "__v": 0
+}]
